@@ -5,6 +5,7 @@ source $HOME/.config/nvim/env/vim-plug/multiterm.vim
 
 call plug#begin('~/.config/nvim/env/vim-plug/plugged')
 " => Temas
+    Plug 'dylanaraps/wal.vim'
     Plug 'drewtempelmeyer/palenight.vim'                " DarkTheme
     Plug 'embark-theme/vim', { 'as': 'embark' }
     Plug 'mhartington/oceanic-next'
