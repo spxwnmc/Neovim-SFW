@@ -39,6 +39,8 @@ map <c-n> :NERDTreeToggle<cr>
 
 " => FloatTerm
 nmap <Leader>t :FloatermNew --height=0.5 --width=0.6 --wintype=float --name=floaterm1 --autoclose=2<CR>
+nmap <Leader>ot :FloatermNew --position=belowright --wintype=split<CR>
+
 
 " => multiterm
 " modo normal
