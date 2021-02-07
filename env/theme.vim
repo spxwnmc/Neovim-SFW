@@ -11,7 +11,8 @@
 
 
 "### ColorScheme ####################
-colorscheme palenight
+colorscheme wal
+"colorscheme palenight
 "    set background=dark
     let g:palenight_terminal_italics=1
 "####################################
