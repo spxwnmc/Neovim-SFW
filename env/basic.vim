@@ -5,11 +5,13 @@ set clipboard=unnamedplus " Para que todo lo que se copie dentro de vim se vaya 
 set t_Co=256              " Soporte para 256 colores
 set listchars=tab:┊\ ,nbsp:␣,trail:·,extends:>,precedes:<
 set fillchars=vert:\│
-set nobackup              " Para que deje de estar chingando con sus mensajes pendejos
-set noswapfile            " Para evitar mensajes pendejos x2
+set nobackup              
+set noswapfile            " no swap files
 set number relativenumber " Habilita los numeros relativos
 set numberwidth=1         " Define el espacio que tengan los numeros
 set mouse=a               " Permite hacer uso del mouse
+set whichwrap+=<,>,h,l,[,] " cursor line wrapping
+set autoread               " auto read changes to files
 
 " => Cambio de directorios
 set autochdir
@@ -20,6 +22,8 @@ set expandtab             " Usa espacios en lugar de tabs
 set smarttab              " Tabs inteligentes
 set shiftwidth=4          " Establece 1 tab == 4 espacios
 set tabstop=4             " Establece 1 tab == 4 espacios
+set autoindent
+set smartindent
 
 " => Busqueda
 set incsearch             " Nos marca de un color lo que estamos buscando
@@ -29,3 +33,9 @@ set smartcase             " Ignora si es uppercase o lowecase
 
 " => Gui config
 set guifont=FiraCode
+
+" => Statusline
+" set title 			  " Muestra el nombre del archivo en la barra/ventana
+set statusline=%f
+set cmdheight=1
+let &t_ZM = "\e[3m"
