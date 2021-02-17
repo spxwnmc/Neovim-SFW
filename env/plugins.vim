@@ -2,6 +2,7 @@ source $HOME/.config/nvim/env/vim-plug/coc-vim.vim
 source $HOME/.config/nvim/env/vim-plug/bracey.vim
 source $HOME/.config/nvim/env/vim-plug/nerdtree.vim
 source $HOME/.config/nvim/env/vim-plug/multiterm.vim
+source $HOME/.config/nvim/env/vim-plug/vim-screenshot.vim
 
 call plug#begin('~/.config/nvim/env/vim-plug/plugged')
 " => Temas
@@ -10,6 +11,7 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'embark-theme/vim', { 'as': 'embark' }
     Plug 'mhartington/oceanic-next'
     Plug 'andreypopp/vim-colors-plain'
+    Plug 'luochen1990/rainbow'
 " => Busqueda
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF + VIM
     Plug 'junegunn/fzf.vim'
@@ -33,4 +35,11 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'chengzeyi/multiterm.vim'                      " Multiple terminales chulas owo
 "    Plug 'apalmer1377/factorus'                         " Refactoring (Java, Python, C/C++)
     Plug 'sbdchd/neoformat'                             " Reformateo automatico
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}   " Markdown preview
+"    Plug 'SergioRibera/vim-screenshot'
+    Plug 'jmckiern/vim-shoot', { 'do': '\"./install.py\" chromedriver' }
+    Plug 'kristijanhusak/vim-carbon-now-sh'
+    Plug 'junegunn/goyo.vim'
+    Plug 'junegunn/limelight.vim'
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()

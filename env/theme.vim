@@ -9,9 +9,14 @@
 
 "####################################
 
+let g:rainbow_active = 1
 
 "### ColorScheme ####################
-colorscheme wal
+if !has('nvim')
+    colorscheme palenight
+else
+    colorscheme wal
+endif
 "colorscheme palenight
 "    set background=dark
     let g:palenight_terminal_italics=1
