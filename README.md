@@ -25,4 +25,4 @@ All plugins of my Neovim config: [Plugins](https://github.com/spawmc/Neovim-SFW/
 I use Arch, BTW.
 
 
-Thanks @AlexisMtzGasca for colors.
+Thanks @AlexisMtzGasca for the colors.
