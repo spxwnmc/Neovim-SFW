@@ -2,7 +2,6 @@ source $HOME/.config/nvim/env/vim-plug/coc-vim.vim
 source $HOME/.config/nvim/env/vim-plug/bracey.vim
 source $HOME/.config/nvim/env/vim-plug/nerdtree.vim
 source $HOME/.config/nvim/env/vim-plug/multiterm.vim
-source $HOME/.config/nvim/env/vim-plug/vim-screenshot.vim
 
 call plug#begin('~/.config/nvim/env/vim-plug/plugged')
 " => Temas
@@ -17,6 +16,7 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'junegunn/fzf.vim'
     Plug 'easymotion/vim-easymotion'                    " Busqueda avanzada
     Plug 'scrooloose/nerdtree'                          " Arbol de archivos
+    Plug 'jiangmiao/auto-pairs'                         " autocompletado de brackets :u 
 " => Utilidades
     Plug 'christoomey/vim-tmux-navigator'               " Nos permite navegar entre ventanas
     Plug 'mhinz/vim-startify'                           " Startpage
