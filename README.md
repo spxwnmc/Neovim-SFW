@@ -1,5 +1,19 @@
 # My config of Neovim
 
+## Requirements
+
+- Nodejs
+- Ag
+- Rg
+- fzf
+- bat
+
+    On `Arch Linux` you can use:
+    ~~~bash
+    sudo pacman -S ripgrep fzf bat the_silver_searcher
+    ~~~
+
+
 | [STARTIFY](https://github.com/mhinz/vim-startify.git) |
 | -- |
 | ![Startify](img/Startify.png) |
@@ -23,6 +37,5 @@
 All plugins of my Neovim config: [Plugins](https://github.com/spawmc/Neovim-SFW/blob/main/env/plugins.vim)
 
 I use Arch, BTW.
-
 
 Thanks @AlexisMtzGasca for the colors.
