@@ -36,6 +36,7 @@ set guifont=FiraCode
 
 " => Statusline
 " set title 			  " Muestra el nombre del archivo en la barra/ventana
-set statusline=%f
+" set statusline=%f
 set cmdheight=1
+set noshowmode
 let &t_ZM = "\e[3m"

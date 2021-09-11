@@ -23,7 +23,7 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'voldikss/vim-floaterm'                        " Terminales flotantes
 "    Plug 'itchyny/lightline.vim'                        " Barra de estado
     Plug 'lilydjwg/colorizer'                           " Colores a codigos de colores hexadecimal
-   " Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Autocompletado
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Autocompletado
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'} " Live server para desarrollo web
     Plug 'ryanoasis/vim-devicons'                       " Iconos
     Plug 'vwxyutarooo/nerdtree-devicons-syntax'         " Parche para iconos de NERDTree
@@ -37,10 +37,17 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'sbdchd/neoformat'                             " Reformateo automatico
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}   " Markdown preview
 "    Plug 'SergioRibera/vim-screenshot'
-    Plug 'jmckiern/vim-shoot', { 'do': '\"./install.py\" chromedriver' }
+    " Plug 'jmckiern/vim-shoot', { 'do': '\"./install.py\" chromedriver' }
     Plug 'kristijanhusak/vim-carbon-now-sh'
     Plug 'junegunn/goyo.vim'
     Plug 'junegunn/limelight.vim'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 "    Plug 'davidhalter/jedi-vim'
+"
+"    " LUA
+    Plug 'hoob3rt/lualine.nvim'
+" If you want to have icons in your statusline choose one of these
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'akinsho/bufferline.nvim'
+    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 call plug#end()

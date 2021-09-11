@@ -28,6 +28,7 @@ nmap <Leader>ct :tabc<CR>
 map ; :Files<CR>
 nmap <Leader>l :Lines<CR>
 nmap <Leader>ob :Buffers<CR>
+nmap <Leader>ag :Ag<CR>
 
 " => easymotion
 "Ejecuta el plugin easymotion
