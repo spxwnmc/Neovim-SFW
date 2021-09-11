@@ -21,6 +21,7 @@ nmap <Leader>ot :tabe
 nmap <Leader>ct :tabc<CR>
 
 
+
 " =========> PLUGINS
 
 " => FZF
@@ -36,7 +37,7 @@ nmap <Leader>s <Plug>(easymotion-s2)
 
 " => NERDTree
 nmap <Leader>nt :NERDTree<CR>
-map <c-n> :NERDTreeToggle<cr>
+"map <c-n> :NERDTreeToggle<cr>
 
 " => FloatTerm
 nmap <Leader>t :FloatermNew --height=0.5 --width=0.6 --wintype=float --name=floaterm1 --autoclose=2<CR>
@@ -55,3 +56,17 @@ xmap <F12> <Plug>(Multiterm)
 
 " => open sesion tmux
 nmap <Leader>os :Multiterm! tmux attach -t 0<CR>
+
+
+" Dashboard
+nmap <Leader>db :Dashboard<CR>
+" Nuevo archivo nuevo
+nmap <Leader>nf :DashboardNewFile<CR>
+" History
+nmap <Leader>ls :DashboardFindHistory<CR> 
+" Find word
+nmap <Leader>fa :DashboardFindWord<CR>
+" Colorscheme
+nmap <Leader>cs :DashboardChangeColorscheme<CR>
+"FindFile
+nmap <Leader>ff :DashboardFindFile<CR>

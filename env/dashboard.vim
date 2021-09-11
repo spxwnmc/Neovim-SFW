@@ -2,6 +2,17 @@
 let g:dashboard_default_executive ='fzf'
 let g:dashboard_fzf_engie = 'ag'
 
+let g:dashboard_custom_shortcut={
+\ 'new_file'           : 'SPC n f',
+\ 'last_session'       : 'SPC s l',
+\ 'find_history'       : 'SPC l s',
+\ 'find_file'          : 'SPC f f',
+\ 'change_colorscheme' : 'SPC c s',
+\ 'find_word'          : 'SPC f a',
+\ 'book_marks'         : 'SPC f b',
+\ }
+
+
 let g:dashboard_custom_header=[
     \'',
     \'    ⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄⡀⠄⢀⣿⣿⠄⠄⠄⢸⡇⠄⠄ ',
@@ -21,3 +32,5 @@ let g:dashboard_custom_header=[
     \' ⣿⣿⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⣠⣴⣿⣿⣿ ',
     \'',
     \]
+
+
