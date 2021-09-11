@@ -8,5 +8,3 @@ require('bufferline').setup {
     right_trunc_marker = '',
   }
 }
-
-

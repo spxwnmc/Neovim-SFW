@@ -2,6 +2,8 @@
 source $HOME/.config/nvim/env/vim-plug/bracey.vim
 source $HOME/.config/nvim/env/vim-plug/nerdtree.vim
 source $HOME/.config/nvim/env/vim-plug/multiterm.vim
+source $HOME/.config/nvim/env/dashboard.vim
+
 
 call plug#begin('~/.config/nvim/env/vim-plug/plugged')
 " => Temas
@@ -19,7 +21,7 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'jiangmiao/auto-pairs'                         " autocompletado de brackets :u 
 " => Utilidades
     Plug 'christoomey/vim-tmux-navigator'               " Nos permite navegar entre ventanas
-    Plug 'mhinz/vim-startify'                           " Startpage
+   " Plug 'mhinz/vim-startify'                           " Startpage
     Plug 'voldikss/vim-floaterm'                        " Terminales flotantes
 "    Plug 'itchyny/lightline.vim'                        " Barra de estado
     Plug 'lilydjwg/colorizer'                           " Colores a codigos de colores hexadecimal
@@ -50,4 +52,5 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'akinsho/bufferline.nvim'
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+    Plug 'glepnir/dashboard-nvim'
 call plug#end()
