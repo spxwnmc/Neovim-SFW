@@ -3,6 +3,7 @@
 ## Requirements
 
 - Nodejs
+- npm
 - Ag
 - Rg
 - fzf
@@ -10,7 +11,7 @@
 
     On `Arch Linux` you can use:
     ~~~bash
-    sudo pacman -S ripgrep fzf bat the_silver_searcher
+    sudo pacman -S ripgrep fzf bat the_silver_searcher nodejs npm
     ~~~
 
 
