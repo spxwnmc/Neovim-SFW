@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'voldikss/vim-floaterm'                        " Terminales flotantes
 "    Plug 'itchyny/lightline.vim'                        " Barra de estado
     Plug 'lilydjwg/colorizer'                           " Colores a codigos de colores hexadecimal
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Autocompletado
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Autocompletado
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'} " Live server para desarrollo web
     Plug 'ryanoasis/vim-devicons'                       " Iconos
     Plug 'vwxyutarooo/nerdtree-devicons-syntax'         " Parche para iconos de NERDTree
@@ -53,4 +53,9 @@ call plug#begin('~/.config/nvim/env/vim-plug/plugged')
     Plug 'akinsho/bufferline.nvim'
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'glepnir/dashboard-nvim'
+
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'nvim-lua/completion-nvim'
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'lighttiger2505/deoplete-vim-lsp'
 call plug#end()

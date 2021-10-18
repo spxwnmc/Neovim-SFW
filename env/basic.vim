@@ -40,3 +40,17 @@ set guifont=FiraCode
 set cmdheight=1
 set noshowmode
 let &t_ZM = "\e[3m"
+
+if executable('bash-language-server')
+  au User lsp_setup call lsp#register_server({
+        \ 'name': 'bash-language-server',
+        \ 'cmd': {server_info->[&shell, &shellcmdflag, 'bash-language-server start']},
+        \ 'allowlist': ['sh'],
+        \ })
+endif
+
+set completeopt=menuone,noinsert,noselect
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy', 'all']
+let g:completion_enable_auto_popup = 1
+imap <tab> <Plug>(completion_smart_tab)
+imap <s-tab> <Plug>(completion_smart_s_tab)

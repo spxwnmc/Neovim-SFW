@@ -70,3 +70,9 @@ nmap <Leader>fa :DashboardFindWord<CR>
 nmap <Leader>cs :DashboardChangeColorscheme<CR>
 "FindFile
 nmap <Leader>ff :DashboardFindFile<CR>
+
+nmap <Leader>h :TmuxNavigateLeft<cr>
+"nmap <C-j> {Down-Mapping} :TmuxNavigateDown<cr>
+"nmap <C-k> {Up-Mapping} :TmuxNavigateUp<cr>
+"nmap <l> {Right-Mapping} :TmuxNavigateRight<cr>
+
